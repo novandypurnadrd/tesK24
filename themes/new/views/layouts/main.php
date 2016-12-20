@@ -32,7 +32,7 @@
 
 <div class="container" id="page">
 	<div id="topnav">
-		<div class="topnav_text"><a href='#'>Home</a> | <a href='#'>My Account</a> | <a href='#'>Settings</a> | <a href="<?php echo Yii::app()->request->baseUrl; ?>/Index.php?r=SiteController/Login" />Logout</a> </div>
+		<div class="topnav_text"><a href="<?php echo Yii::app()->request->baseUrl; ?>/Index.php?r=site/login" />Logout</a> </div>
 	</div>
 	<div id="header">
 		<div id="logo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png"></img><?php //echo CHtml::encode(Yii::app()->name); ?></div>
@@ -68,8 +68,8 @@
 		<?php $this->widget('zii.widgets.CMenu',array(
 			'items'=>array(
 				array('label'=>'Dashboard', 'url'=>array('/site/index')),
-				array('label'=>'Member', 'url'=>array('/site/page', 'view'=>'forms')),
-				array('label'=>'Account', 'url'=>array('/site/page', 'view'=>'account')),
+				array('label'=>'Member', 'url'=>array('/member')),
+				array('label'=>'Account', 'url'=>array('/user')),
 				//array('label'=>'Interface', 'url'=>array('/site/page', 'view'=>'interface')),				
 				//array('label'=>'Buttons & Icons', 'url'=>array('/site/page', 'view'=>'buttons_and_icons')),
 				//array('label'=>'Error Pages', 'url'=>array('/site/page', 'view'=>'Demo 404 page')),

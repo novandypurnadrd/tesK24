@@ -17,14 +17,14 @@
     
     
     <div class="dashIcon span-3">
-        <a href="<?php echo Yii::app()->request->baseUrl; ?>/Index.php?r=memberController/View"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/big_icons/icon-people.png" alt="Customers" /></a>
-        <div class="dashIconText"><a href="#">Member</a></div>
+        <a href="<?php echo Yii::app()->request->baseUrl; ?>/Index.php?r=member"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/big_icons/icon-people.png" alt="Customers" /></a>
+        <div class="dashIconText"><a href="<?php echo Yii::app()->request->baseUrl; ?>/Index.php?r=member">Member</a></div>
     </div>
     
     
     <div class="dashIcon span-3">
-        <a href="#"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/big_icons/icon-warning.png" alt="System Alerts" /></a>
-        <div class="dashIconText"><a href="#">My Account</a></div>
+        <a href="<?php echo Yii::app()->request->baseUrl; ?>/Index.php?r=user"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/big_icons/icon-warning.png" alt="System Alerts" /></a>
+        <div class="dashIconText"><a href="<?php echo Yii::app()->request->baseUrl; ?>/Index.php?r=user">Account</a></div>
     </div>
    
     
